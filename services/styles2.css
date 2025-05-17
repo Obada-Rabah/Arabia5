@@ -1,0 +1,133 @@
+/* Service Page Styles */
+.service-hero {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    padding-top: 80px;
+}
+
+.service-hero .container {
+    position: relative;
+    z-index: 1;
+}
+
+.service-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.service-hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.service-details {
+    padding: 80px 0;
+}
+
+.service-details .container {
+    display: flex;
+    gap: 40px;
+}
+
+.service-content {
+    flex: 2;
+}
+
+.service-sidebar {
+    flex: 1;
+}
+
+.service-content h2 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.service-content h3 {
+    color: var(--primary-color);
+    margin: 2rem 0 1rem;
+}
+
+.service-content ul {
+    margin-bottom: 2rem;
+    padding-left: 20px;
+}
+
+.service-content li {
+    margin-bottom: 0.8rem;
+}
+
+.service-cta {
+    background-color: rgba(226, 185, 121, 0.1);
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 40px;
+    text-align: center;
+    border: 1px solid rgba(226, 185, 121, 0.3);
+}
+
+.service-cta p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.sidebar-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-card h4 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.sidebar-card ul {
+    list-style: none;
+}
+
+.sidebar-card li {
+    margin-bottom: 10px;
+}
+
+.sidebar-card a {
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.sidebar-card a:hover {
+    color: var(--secondary-color);
+    padding-left: 5px;
+}
+
+.sidebar-card p {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-card i {
+    margin-right: 10px;
+    color: var(--secondary-color);
+}
+
+.sidebar-card .btn {
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .service-details .container {
+        flex-direction: column;
+    }
+    
+    .service-hero h1 {
+        font-size: 2.2rem;
+    }
+}
